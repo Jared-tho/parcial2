@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AXON</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>AXON</h1>
+  </header>
+
+  <main>
+    <p>En AXON ofrecemos servicios de tecnología IT y reparación y mantenimiento de equipos tecnológicos para que tu computadora siempre funcione bien.</p>
+
+    <form id="formulario-axon" method="POST" action="procesar.php" novalidate>
+      <div>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre">
+      </div>
+
+      <div>
+        <label for="correo">Correo</label>
+        <input type="text" id="correo" name="correo">
+      </div>
+
+      <div>
+        <label for="equipo">Equipo a revisar</label>
+        <input type="text" id="equipo" name="equipo">
+      </div>
+
+      <button type="submit">Solicitar servicio</button>
+      <p id="aviso-axon" class="aviso"></p>
+    </form>
+  </main>
+
+  <footer>
+    <p>Parcial 2 - Jared Aguirre Rosas - 20 de octubre de 2026</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

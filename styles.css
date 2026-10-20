@@ -1,0 +1,108 @@
+.aviso {
+    display: none;
+}
+
+.aviso.error {
+    display: block;
+    color: #b00020;
+}
+
+.aviso.exito {
+    display: block;
+    color: #1b7f3b;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 420px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    color: #222;
+}
+
+h1 {
+    text-align: center;
+    color: #0891b2;
+}
+
+form div {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 0.6rem;
+    background: #0891b2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.85rem;
+    color: #666;
+}
+
+/* ===== pag procesar.php ===== */
+body.resultado {
+    max-width: none;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e0f2f6;
+}
+
+.cuadro {
+    width: 90%;
+    max-width: 420px;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+.cuadro h1 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.cuadro h2 {
+    font-size: 1.1rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.3rem;
+}
+
+.cuadro p {
+    margin: 0.4rem 0;
+}
+
+.cuadro ul {
+    padding-left: 1.2rem;
+}
+
+.firma {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #666;
+}
